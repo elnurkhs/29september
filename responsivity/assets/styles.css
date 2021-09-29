@@ -1,0 +1,217 @@
+.list{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+.nav-color{
+    position: fixed;
+    background-color: whitesmoke;
+}
+.nav-color .show{
+    font-weight: 900;
+    
+}
+.nav-col .list{
+    font-weight: 500;
+}
+.nav-color .kes{
+    font-weight: 400;
+}
+@media only screen and (max-width: 768px) {
+    .nav-col{
+        display: none;
+    }
+}
+.row{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+#intro{
+    background-image: url(./photos/img1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+#intro .cover h2{
+    color: whitesmoke;
+    text-shadow: 2px 2px 4px #000000;
+    font-size: 35px;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+#intro .cover h1{
+    font-size: 50px;
+    font-weight: 700;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    padding-bottom: 30px;
+}
+button{
+    padding: 0.5rem 3rem;
+    font-size: 1rem;
+    font-weight: 700;
+}
+button:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    background-color: #333;
+    color: whitesmoke;
+    border-color: #333;
+    font-size: 16px;
+}
+.cover{
+    text-align: center;
+}
+.about-me{
+    text-align: center;
+}
+#about .about-me{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#about .quick-bio h3{
+    padding-bottom: 20px;
+}
+#about p{
+    color: gray;
+    font-weight: 300;
+    padding-top: 20px;
+
+}
+#about .quick-bio p{
+    color: gray;
+    font-weight: 200;
+    padding-bottom: 155px;
+}
+#about::after{
+    content: "";
+    width: 100%;
+    height: 1px;
+    background: whitesmoke;
+    position: absolute;
+}
+#what .text{
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+#what h2{
+    font-weight: 300;
+    font-size: 30px;
+}
+#what .text p{
+    padding-top: 20px;
+    color: gray;
+    font-weight: 350;
+}
+#what::after{
+    content: "";
+    width: 100%;
+    height: 1px;
+    background: whitesmoke;
+    position: absolute;
+}
+#what .center{
+    text-align: center;
+    padding-bottom: 50px;
+}
+#what .center i{
+    color: gray;
+    font-size: 50px;
+    padding-bottom: 40px;
+    padding-top: 30px;
+    transition: 2s;
+}
+i:hover{
+    transform: rotateY(380deg);
+}
+#what .title{
+    font-size: 12px;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+#what .paragraph{
+    color: grey;
+    font-weight: 200;
+    padding: 0 15%;
+}
+#works::after{
+    content: "";
+    width: 100%;
+    height: 1px;
+    background: whitesmoke;
+    position: absolute;
+}
+#works .text{
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+#works h2{
+    font-size: 30px;
+    font-weight: 300;
+}
+span{
+    font-weight: 700;
+}
+#works p{
+    padding-top: 20px;
+    color: gray;
+    font-weight: 350;
+}
+#works .my-list-icon .list{
+    justify-content: center;
+}
+#works .my-list-icon .list li i{
+    padding: 0px 20px;
+    font-size: 30px;
+    color:black
+}
+#works .my-list-icon .list li p{
+    font-size: 15px;
+    padding: 10px 25px;
+    color: black;
+}
+#works .list{
+    transition: 2s;
+}
+#works i:hover{
+    transform: scale(2);
+}
+#works .my-img:hover{
+    -webkit-filter: blur(10px);
+     filter: blur(10px);
+}
+#testimonials .icon-text{
+    text-align: center;
+}
+#testimonials .icon-text i{
+    font-size: 20px;
+}
+.input-about{
+    text-align: center;
+}
+.img-work{
+    justify-content: space-evenly;
+}
+.adress{
+    text-align: center;
+}
+.display-icon{
+    display: flex;
+    justify-content: center;
+}
+.footer-icon{
+    display: flex;
+    list-style: none;
+}
+footer{
+    background-color: #333;
+}
+footer .adress{
+    color: whitesmoke;
+}
